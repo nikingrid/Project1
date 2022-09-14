@@ -1,0 +1,22 @@
+/*Initial reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body 
+{
+    background-color: #25408F;
+}
+
+#menu 
+{
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    background-color: bisque;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
