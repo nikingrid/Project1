@@ -34,7 +34,7 @@ nav
 	margin: auto;
 	line-height: 35px;
     margin-top: 17.5px;
-    /*background-color: yellow;*/
+    background-color: yellow;
 }
 
 .elementMenu
@@ -129,4 +129,41 @@ h1
     padding: 10px;
     font-size: 3rem;
     color: #25408F;
+}
+
+/* SHOP */
+
+#containerLabeltabs
+{
+	width: 50%;
+	background-color: tomato;
+    margin: auto;
+	overflow:hidden;
+	margin-top: 150px;
+    position: absolute;
+}
+
+
+.labelTabs
+{
+	background-color: black;
+/*	margin: 0px 0px 0px 200px ;*/
+	width: 20%; /*Añado esta linea para que al hacer hover no se descoloque "Rober"*/
+	font-size: 1.5rem;
+	color:white;
+	float: left;
+	text-align: center;
+}
+
+.labelTabs>a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.labelTabs:hover
+{
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
 }
