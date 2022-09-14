@@ -8,12 +8,15 @@
 
 body
 {
-    background-color: #25408F;
+    background-color: #25408F; 
+    width: 960px;
+    height: auto;
 }
 
 /* MENU*/
 
-nav {
+nav 
+{
 	width: 100%;
 	height: 70px;
     margin-top: 40px;
@@ -23,7 +26,8 @@ nav {
     z-index: 2;
 }
 
-#menu {
+#menu 
+{
 	list-style-type: none;
 	width: 850px;
 	overflow: hidden;
@@ -33,25 +37,29 @@ nav {
     /*background-color: yellow;*/
 }
 
-.elementMenu{
+.elementMenu
+{
 	float: left;
 	margin: 0px 35px 0px 35px;
 	/*background-color: red;*/
 }
 
-.elementMenu>a {
-	color: black;
+.elementMenu>a 
+{
+	color: #25408F;
     text-decoration: none;
 }
 
-.elementMenu > a:hover {
+.elementMenu > a:hover 
+{
 	text-decoration: underline;
 }
 
 
 /* SUBMENU */
 
-#submenu{
+#submenu
+{
 	width:100px;
 	height: auto;
 	position: absolute;
@@ -61,26 +69,64 @@ nav {
 	display: none;
 }
 
-.submenuElement {
+.submenuElement 
+{
 	width: 100%;
 	height: 40px;
 	line-height: 40px;
 }
 
 
-.submenuElement>a{
+.submenuElement>a
+{
 	font-size: 1.2rem;
 	text-decoration: none;
-	color: black;
+	color: #25408F;
 }
 
 
-.submenuElement > a:hover{
+.submenuElement > a:hover
+{
 	font-weight: bold;
 }
 
-.elementMenu:hover #submenu {
+.elementMenu:hover #submenu 
+{
 	display: block;
 }
 
+/* IMAGE AND LOGO TECH SHOP */
 
+
+.imgLogo
+{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    background-color: yellow;
+    margin-top: 150px;
+    margin-left: 240px;
+}
+
+#image
+{
+    height: 500px;
+    width: auto;
+    position: absolute;
+
+}
+
+h1 
+{
+    width: 300px;
+    height: 70px;
+    position: relative;
+    margin-top: 330px;
+    margin-left: 480px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+    color: #25408F;
+}
