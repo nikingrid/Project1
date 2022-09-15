@@ -20,10 +20,18 @@ nav
 	width: 100%;
 	height: 70px;
     margin-top: 40px;
-    background-color: aliceblue;
-	position: fixed;
+	position: absolute;
 	font-size: 1.5rem;
     z-index: 2;
+    background-color: white;
+}
+
+#mediaLogo
+{
+    position: absolute;
+    width: 112px;
+    margin-left: 14.5%;
+    
 }
 
 #menu 
@@ -34,7 +42,7 @@ nav
 	margin: auto;
 	line-height: 35px;
     margin-top: 17.5px;
-    background-color: yellow;
+   /* background-color: yellow;*/
 }
 
 .elementMenu
@@ -63,10 +71,10 @@ nav
 	width:100px;
 	height: auto;
 	position: absolute;
-	background-color: aliceblue;
 	top:50px;
 	list-style: none;
 	display: none;
+    background-color: aliceblue;
 }
 
 .submenuElement 
@@ -104,9 +112,9 @@ nav
     height: 500px;
     position: absolute;
     overflow: hidden;
-    background-color: yellow;
     margin-top: 150px;
     margin-left: 240px;
+    background-color: yellow;
 }
 
 #image
@@ -124,46 +132,50 @@ h1
     position: relative;
     margin-top: 330px;
     margin-left: 480px;
-    background-color: white;
     text-align: center;
     padding: 10px;
     font-size: 3rem;
     color: #25408F;
+    background-color: white;
 }
 
 /* SHOP */
 
-#containerLabeltabs
+#products
 {
-	width: 50%;
-	background-color: tomato;
-    margin: auto;
-	overflow:hidden;
-	margin-top: 150px;
+    width: 100%;
+    height: auto;
     position: absolute;
+    margin-top: 100px;
+   /* background-color: coral;*/
 }
 
-
-.labelTabs
+.containerLab
 {
-	background-color: black;
-/*	margin: 0px 0px 0px 200px ;*/
-	width: 20%; /*Añado esta linea para que al hacer hover no se descoloque "Rober"*/
-	font-size: 1.5rem;
-	color:white;
-	float: left;
-	text-align: center;
+    /*background-color: violet;*/
+    text-align: center;
+    margin-left: 100px;
+    color: black;
 }
 
-.labelTabs>a
+.product
 {
-	text-decoration: none;
-	color: white;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
 }
 
-.labelTabs:hover
+#contDisplay, #contKeyboard, #contMouse, #contLaptop
 {
-	text-decoration: none;
-	font-weight: bold;
-	cursor: pointer;
+    width: 1300px;
+    height: 520px;
+    margin-top: 30px;
+    /*background-color: aquamarine;*/
+}
+
+h2
+{
+    color: aliceblue;
 }

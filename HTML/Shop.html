@@ -7,12 +7,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../CSS/style.css">
     
+    <!-- JS -->
+    <script src="../JS/Script.js"></script>
+    
 </head>
 <body>
    
    <!-- Horizontal menu starts here -->
    
-    <header id="top"></header>
+    <header id="top">
         
     		<nav>
 
@@ -22,8 +25,9 @@
 				<li class="elementMenu"><a href="Shop.html">Shop</a>
 
 					<ul id="submenu">
-						<li class="submenuElement"><a href="#labelDisplay">Displays</a></li>
-						<li class="submenuElement"><a href="Shop.html" onclick="">Keyboard</a></li>
+						<li class="submenuElement"><a href="#contDisplay">Displays</a></li>
+						
+						<li class="submenuElement"><a href="#contKeyboard">Keyboard</a></li>
 						<li class="submenuElement"><a href="Shop.html" onclick="">Mouse</a></li>
 						<li class="submenuElement"><a href="Shop.html" onclick="">Laptop</a></li>
 					</ul>
@@ -46,23 +50,239 @@
 			
 			</ul>
 		</nav>
+    </header>
     
     
     <!-- SHOP -->
-    
-    <!-- MENU SHOP-->
-           
-    <div id="containerLabeltabs">		
-			<p class="labelTabs" id="labelDisplay"><a href="#labelDisplay">Displays</a></p>
+
+<!-- IMG PRODUCTS -->
+
+	<section id="products">
+	
+	<!--DISPLAY-->
+	
+		<div class="containerLab" id="contDisplay">
+		
+		<h2>Displays</h2>
+		
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/monitores/M-(1).jpg"></div>
+				<h4 class="nameProduct">MSI Optix G241V 23.8"</h4>
+				<p class="price">139.98€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/monitores/M-(2).jpg"></div>
+				<p class="nameProduct">Newskill Icarus 27" LED</p>
+				<p class="price">299.99</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img  src="../Media/Mini_img/monitores/M-(3).jpg"></div>
+				<p class="nameProduct">Asus VZ249HE-W 23.8"</p>
+				<p class="price">129.01€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/monitores/M-(4).jpg"></div>
+				<p class="nameProduct">BenQ GW2480E 23.8"</p>
+				<p class="price">118.99€</p>
+			</div>
 			
-			<!-- <p class="labelTabs" id="pestTeclados" onclick="marcarPestaProduc('contTeclados', 'pestTeclados')">Teclados</p>
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/monitores/M-(5).jpg"></div>
+				<p class="nameProduct">Newskill Icarus IC34W4-V 34"</p>
+				<p class="price">429.99€</p>
+			</div>
 			
-			<p class="labelTabs" id="pestRatones" onclick="marcarPestaProduc('contRatones', 'pestRatones')">Ratones</p>
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/monitores/M-(6).jpg"></div>
+				<p class="nameProduct">MSI Optix MAG321CURV 31.5"</p>
+				<p class="price">399.05€</p>
+			</div>
+	
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/monitores/M-(7).jpg"></div>
+				<p class="nameProduct">Keep Out XGM24F+ 23.8"</p>
+				<p class="price">177.15€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/monitores/M-(8).jpg"></div>
+				<p class="nameProduct">MSI PRO MP271 27"</p>
+				<p class="price">175.05€</p>
+			</div>
 			
-			<p class="labelTabs" id="pestPortatiles" onclick="marcarPestaProduc('contPortatiles', 'pestPortatiles')">Portátiles</p>
-			
-			<p class="labelTabs" id="pestOfertas" onclick="marcarPestaProduc('contOfertas', 'pestOfertas')">Ofertas</p>-->
 		</div>
-    
+
+		<!--Keyboard-->
+		
+		<div class="containerLab" id="contKeyboard">
+		
+			<h2>Keyboard</h2>
+			
+			<div class="product">
+				<div class="imgProductg"><img src="../Media/Mini_img/teclados/T-(1).jpg"></div>
+				<p class="nameProduct">Newskill Suiko Ivory</p>
+				<p class="price">69.95€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/teclados/T-(2).jpg"></div>
+				<p class="nameProduct">Newskill Serike</p>
+				<p class="price">59.96€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/teclados/T-(3).jpg"></div>
+				<p class="nameProduct">Newskill Serike TKL</p>
+				<p class="price">49.95€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/teclados/T-(4).jpg"></div>
+				<p class="nameProduct">Logitech Keyboard K120</p>
+				<p class="price">11.15€</p>
+			</div>
+			
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/teclados/T-(5).jpg"></div>
+				<p class="nameProduct">Logitech Desktop MK120</p>
+				<p class="price">62.80€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/teclados/T-(6).jpg"></div>
+				<p class="nameProduct">Logitech G213 Prodigy</p>
+				<p class="price">50.15€</p>
+			</div>
+	
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/teclados/T-(7).jpg"></div>
+				<p class="nameProduct"> Logitech G413</p>
+				<p class="price">80.25€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/teclados/T-(8).jpg"></div>
+				<p class="nameProduct">Ozone Battle Royale</p>
+				<p class="price">79.95€</p>
+			</div>
+			
+        </div>
+        
+        <!-- MOUSE -->
+        
+        <div class="containerLab" id="contMouse">
+        
+        <h2>Mouse</h2>
+			
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(1).jpg"></div>
+				<p class="nameProduct">Logitech G402</p>
+				<p class="price">50.15€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(2).jpg"></div>
+				<p class="nameProduct">Logitech Marathon</p>
+				<p class="price">29.95€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(3).jpg"></div>
+				<p class="nameProduct">Asus ROG Spatha Ratón</p>
+				<p class="price">99.99€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(4).jpg"></div>
+				<p class="nameProduct">Logitech M235</p>
+				<p class="price">19.55€</p>
+			</div>
+			
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(5).jpg"></div>
+				<p class="nombreProducto">Corsair Katar Pro XT</p>
+				<p class="precio">34.99€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(6).jpg"></div>
+				<p class="nameProduct">HP 1000</p>
+				<p class="price">5.65€</p>
+			</div>
+	
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(7).jpg"></div>
+				<p class="nameProduct">NGS Red Flea Advanced</p>
+				<p class="price">5.99€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/ratones/R-(8).jpg"></div>
+				<p class="nameProduct">Corsair M65 Elite</p>
+				<p class="price">54.99€</p>
+			</div>
+        </div>
+        
+        <!-- LAPTOP-->
+        
+        <div class="containerLab" id="contLaptop">
+        
+        <h2>Laptop</h2>
+			
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/portatiles/p-(1).jpg"></div>
+				<p class="nameProduct">Samsung Chromebook 4+</p>
+				<p class="price">369.65€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/portatiles/P-(2).jpg"></div>
+				<p class="nameProduct">Lenovo IdeaPad 3 15ITL06</p>
+				<p class="price">549.95€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/portatiles/P-(3).jpg"></div>
+				<p class="nameProduct">Lenovo Legion 5 15IMH05</p>
+				<p class="price">889.99€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProductg"><img src="../Media/Mini_img/portatiles/P-(4).jpg"></div>
+				<p class="nameProduct">Asus VivoBook 14</p>
+				<p class="price">749.55€</p>
+			</div>
+        
+        <div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/portatiles/P-(5).jpg"></div>
+				<p class="nameProduct">HP OMEN 15-EN0004NS </p>
+				<p class="price">1149.99€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/portatiles/P-(6).jpg"></div>
+				<p class="nameProduct">Dynabook Toshiba Satellite Pro</p>
+				<p class="price">439.75€</p>
+			</div>
+	
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/portatiles/P-(7).jpg"></div>
+				<p class="nameProduct">HP 255 G8</p>
+				<p class="price">659.75€</p>
+			</div>
+
+			<div class="product">
+				<div class="imgProduct"><img src="../Media/Mini_img/portatiles/P-(8).jpg"></div>
+				<p class="nameProducto">Gigabyte AORUS 15G</p>
+				<p class="price">1199.25€</p>
+			</div>
+
+
+        </div>
+        
+    </section>
 </body>
 </html>
