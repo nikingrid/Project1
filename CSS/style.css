@@ -103,8 +103,7 @@ nav
 	display: block;
 }
 
-/* IMAGE AND LOGO TECH SHOP */
-
+/* IMAGE TECH SHOP */
 
 .imgLogo
 {
@@ -178,4 +177,155 @@ h1
 h2
 {
     color: aliceblue;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+h3
+{
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+/* FOOTER SHOP*/
+
+#footer
+{
+    width: 25px;
+    height: 30px;
+    margin-top: 2240px;
+    margin-left: 94%;
+    position: absolute;
+   /* background-color: fuchsia;*/
+    z-index: 2;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+#iconBox
+{
+    /*background-color: green;*/
+    width: 100%;
+}
+
+
+/* ABOUT US */
+
+#aboutUs
+{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-left: 240px;
+    /*background-color: gray;*/
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#gifLisa
+{
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-style: dotted;
+    border-color: aliceblue;
+    /*background-color: yellow;*/
+}
+
+
+/* STAFF */
+
+#staffPage
+{
+    width: 900px;
+    height: 550px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 130px;
+    margin-left: 240px;
+    background-color: aliceblue;
+}
+
+#imagenStaffOne, #imagenStaffTwo
+{
+    position: absolute;
+    width: 900px;
+    height: 250px;
+    /*background-color: lightpink;*/
+}
+
+#imagenStaffOne
+{
+    margin-top: 20px;
+}
+
+#imagenStaffTwo
+{
+    margin-top: 300px;
+}
+
+#imgS
+{
+    width: 300px;
+    height: 200px;
+   /* background-color: hotpink;*/
+    float: left;
+}
+
+#nameStaff
+{
+    width: 550px;
+    height: auto;
+    text-align: justify;
+    float: right;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    padding: 10px;
+    /*background-color: palegreen;*/
+}
+
+/* LOCATION */
+
+#location
+{
+    width: 900px;
+    height: 550px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 130px;
+    margin-left: 240px;
+    /*background-color: deeppink;*/
+    border-left: 10px;
+}
+
+.mapsHere
+{
+    width: 550px;
+    height: 450px;
+    border:10px;
+    border-style:double;
+    border-color: yellow;
+    /*background-color: lightpink;*/
+    overflow: hidden;
+}
+
+#mapsLocation
+{
+    width: 300px;
+    height: 200px;
+    margin-top: 12%;
+    margin-right: 10px;
+    float: right;
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+    /*background-color: green;*/
 }

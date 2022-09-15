@@ -7,29 +7,31 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../CSS/style.css">
     
-    <!-- JS -->
-    <script src="../JS/Script.js"></script>
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/77fb0cbc75.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
    
-   <!-- Horizontal menu starts here -->
-   
+    <!-- Horizontal menu starts here -->
+    
     <header id="top">
-        
-    		<nav>
+         
+        	<nav>
 
+        <img id="mediaLogo" src="../Media/logo.png">
+        
 			<ul id="menu">
 				
 				<li class="elementMenu"><a href="index.html">Home</a></li>
 				<li class="elementMenu"><a href="Shop.html">Shop</a>
 
 					<ul id="submenu">
-						<li class="submenuElement"><a href="#contDisplay">Displays</a></li>
+						<li class="submenuElement"><a href="Shop.html#contDisplay">Displays</a></li>
 						
-						<li class="submenuElement"><a href="#contKeyboard">Keyboard</a></li>
-						<li class="submenuElement"><a href="Shop.html" onclick="">Mouse</a></li>
-						<li class="submenuElement"><a href="Shop.html" onclick="">Laptop</a></li>
+						<li class="submenuElement"><a href="Shop.html#contKeyboard">Keyboard</a></li>
+						<li class="submenuElement"><a href="Shop.html#contMouse">Mouse</a></li>
+						<li class="submenuElement"><a href="Shop.html#contLaptop">Laptop</a></li>
 					</ul>
 					
 				</li>
@@ -37,8 +39,8 @@
 				<li class="elementMenu"><a href="About.html">About us</a>
 				
 				<ul id="submenu">
-						<li class="submenuElement"><a href="Staff.html" onclick="">Staff</a></li>
-						<li class="submenuElement"><a href="Location.html" onclick="">Location</a></li>
+						<li class="submenuElement"><a href="Staff.html">Staff</a></li>
+						<li class="submenuElement"><a href="Location.html">Location</a></li>
 					</ul>
 				</li>
 				
@@ -49,8 +51,10 @@
 				<li class="elementMenu"><a href="Blog.html">Blog</a></li>
 			
 			</ul>
+			
 		</nav>
-    </header>
+     </header>
+     
     
     
     <!-- SHOP -->
@@ -279,10 +283,24 @@
 				<p class="nameProducto">Gigabyte AORUS 15G</p>
 				<p class="price">1199.25€</p>
 			</div>
-
-
         </div>
         
     </section>
+    
+<!-- FOOTER -->
+
+<footer id="footer">
+		
+	<div id="iconBox">
+        <a href="#top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M318 177.5c3.8-8.8 2-19-4.6-26l-136-144C172.9 2.7 166.6 0 160 0s-12.9 2.7-17.4 7.5l-136 144c-6.6 7-8.4 17.2-4.6 26S14.4 192 24 192h88l0 288c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32l0-288h88c9.6 0 18.2-5.7 22-14.5z"/></svg>
+        
+        </a>
+
+		
+	</div>
+
+</footer>
+    
 </body>
 </html>
