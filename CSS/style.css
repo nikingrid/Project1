@@ -13,6 +13,7 @@ body
     height: auto;
 }
 
+/*************************************/
 /* MENU*/
 
 nav 
@@ -103,6 +104,7 @@ nav
 	display: block;
 }
 
+/*************************************/
 /* IMAGE TECH SHOP */
 
 .imgLogo
@@ -138,6 +140,8 @@ h1
     background-color: white;
 }
 
+
+/*************************************/
 /* SHOP */
 
 #products
@@ -146,12 +150,12 @@ h1
     height: auto;
     position: absolute;
     margin-top: 100px;
-   /* background-color: coral;*/
+    /*background-color: coral;*/
 }
 
 .containerLab
 {
-    /*background-color: violet;*/
+   /*background-color: violet;*/
     text-align: center;
     margin-left: 100px;
     color: black;
@@ -163,6 +167,7 @@ h1
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
+    margin-right: 15px;
     background-color: aliceblue;
 }
 
@@ -172,6 +177,12 @@ h1
     height: 520px;
     margin-top: 30px;
     /*background-color: aquamarine;*/
+}
+
+.product:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+	border-radius: 5%;
 }
 
 h2
@@ -212,7 +223,7 @@ h3
     width: 100%;
 }
 
-
+/*************************************/
 /* ABOUT US */
 
 #aboutUs
@@ -240,7 +251,7 @@ h3
     /*background-color: yellow;*/
 }
 
-
+/*************************************/
 /* STAFF */
 
 #staffPage
@@ -258,7 +269,9 @@ h3
 {
     position: absolute;
     width: 900px;
-    height: 250px;
+    height: 200px;
+    border-top-style: solid;
+    border-bottom-style: solid;
     /*background-color: lightpink;*/
 }
 
@@ -269,7 +282,7 @@ h3
 
 #imagenStaffTwo
 {
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 #imgS
@@ -278,20 +291,27 @@ h3
     height: 200px;
    /* background-color: hotpink;*/
     float: left;
+    padding: 1%;
 }
 
 #nameStaff
 {
     width: 550px;
     height: auto;
-    text-align: justify;
+    text-align: center;
     float: right;
     font-size: 1.2rem;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px;
     /*background-color: palegreen;*/
 }
 
+#nameStaff>p
+{
+    text-align: justify;
+}
+
+/*************************************/
 /* LOCATION */
 
 #location
@@ -328,4 +348,115 @@ h3
     font-size: 1.2rem;
     text-align: justify;
     /*background-color: green;*/
+}
+
+/*************************************/
+/* CONTACT */
+
+#contact
+{
+    width: 900px;
+    height: 550px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 120px;
+    margin-left: 240px;
+   /* background-color: deeppink;*/
+    border-left: 10px;
+}
+
+#formu
+{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding: 2.5%;
+    background-color: aliceblue;
+}
+
+#a 
+{
+    width: 350px;
+    height: 25px;
+    margin: 2px 0px 15px 0;
+    border-width: 1px;
+    font-size: 0.9rem;
+}
+
+input
+{
+    display: block;
+}
+
+textarea
+{
+    width: 350px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+#sendBotton
+{
+    width: 80px;
+	height: auto;
+	border-style: none;
+	background-color: black;
+	color: white;
+	margin: 25px auto;
+	padding: 2px;
+	font-size: 1.2rem;
+}
+
+#sendBotton:hover{
+	background-color: white;
+	color: #25408F;
+	border-width: 3px;
+	border-style: solid;
+	border-color: black; 
+}
+
+/*************************************/
+
+/* EVENTS */
+
+#events
+{
+    width: 900px;
+    height: 1800px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 130px;
+    margin-left: 240px;
+    /*background-color: deeppink;*/
+    border-left: 10px;
+}
+
+
+#imagenEvent
+{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 2.5%;
+    margin-left:225px;
+}
+
+#imgE
+{
+    width: 400px;
+    height: auto;
+    background-color: skyblue;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#imgE:hover
+{
+    transform: scale(1.1,1.1);
+	cursor: pointer;
+    border-style: dotted;
 }
