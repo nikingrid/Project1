@@ -1,72 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
     
     <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <!--<link rel="stylesheet" href="../CSS/style.css">-->
+       
+        <!-- CSS only -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
     
 </head>
-<body>
- 
+<body style="background-color:  #25408F;">
+    
     <!-- Horizontal menu starts here -->
     
     <header id="top">
-         
-<nav>
-
-        <img id="mediaLogo" src="../Media/logo.png">
+   
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TECH SHOP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
-			<ul id="menu">
-				
-				<li class="elementMenu"><a href="index.html">Home</a></li>
-				<li class="elementMenu"><a href="Shop.html">Shop</a>
-
-					<ul id="submenu">
-						<li class="submenuElement"><a href="Shop.html#contDisplay">Displays</a></li>
-						
-						<li class="submenuElement"><a href="Shop.html#contKeyboard">Keyboard</a></li>
-						<li class="submenuElement"><a href="Shop.html#contMouse">Mouse</a></li>
-						<li class="submenuElement"><a href="Shop.html#contLaptop">Laptop</a></li>
-					</ul>
-					
-				</li>
-
-				<li class="elementMenu"><a href="About.html">About us</a>
-				
-				<ul id="submenu">
-						<li class="submenuElement"><a href="Staff.html">Staff</a></li>
-						<li class="submenuElement"><a href="Location.html">Location</a></li>
-					</ul>
-				</li>
-				
-				<li class="elementMenu"><a href="Contact.html">Contact</a></li>	
-				
-                <li class="elementMenu"><a href="Events.html">Events</a></li>
-				
-				<li class="elementMenu"><a href="Blog.html">Blog</a>
-				
-				<ul id="submenu">
-						<li class="submenuElement"><a href="Blog.html#firstInput">16/02/2022</a></li>
-						<li class="submenuElement"><a href="Blog.html#secondInput">08/08/2022</a></li>
-						<li class="submenuElement"><a href="Blog.html#thirdInput">07/11/2022</a></li>
-					</ul>
-				</li>
-			
-			</ul>
-			
-		</nav>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Shop.html#contDisplay">Displays</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contKeyboard">Keyboard</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contMouse">Mouse</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contLaptop">Laptop</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Shop.html">Shop</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="About.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Staff.html">Staff</a></li>
+            <li><a class="dropdown-item" href="Location.html">Location</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="About.html">About</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Events.html">Events</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Blog.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Blog.html#firstInput">16/02/2022</a></li>
+            <li><a class="dropdown-item" href="Blog.html#secondInput">08/08/2022</a></li>
+            <li><a class="dropdown-item" href="Blog.html#thirdInput">07/11/2022</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
      </header>
+    
      
      <!-- CONTACT -->
      
+<div class="container">
+
      <section id="contact">
+         <h2 style="color: white; text-align: center; padding: 0.5rem;">Contact</h2>
          
-         <h2 id="tittleWhite">Contact</h2>
+         <div class="container" style="width: 600px; text-align: center; background-color: aliceblue; padding: 1rem;">
+         
+<form action="http://vip.groupehn.com:20003/html/infospost.php" method="POST">
+         
+<div class="container" style="max-width: 500px; background-color: aliceblue; text-align: left;">        
+         
+         <div class="mb-3">
+             <label for="" class="form-label">First name</label>
+             <input type="text"  class="form-control" id="tuclase" required class="tuclase">
+        </div>
+             
+             <div class="mb-3">
+             <label for="" class="form-label">Second name</label>
+             <input type="text" class="form-control" id="a" required class="tuclase">
+             </div>
+             
+             <div class="mb-3">
+             <label for="" class="form-label">Country</label>
+             <input type="text" class="form-control" id="a" required class="suclase">
+             </div>
+             
+             <div class="mb-3">
+             <label for="" class="form-label">Email address</label>
+             <input type="email" class="form-control" id="a" required class="tuclase" placeholder="example@email.com">
+             </div>
+             
+             <div class="mb-3">
+             <label for="" class="form-label">Questions &amp; Comments</label>
+             <textarea class="form-control" placeholder="Please, leave your comments here!" required class="tuclase" style="height: 110px;"></textarea>
+             </div>
+  </div> 
+  
+  <button type="submit" class="btn btn-primary">Send</button>
+  
+</form>
+             
+          
+        </div>
+         
+     </section>
+    
+    </div>
+     
+     
+<!--    <section style="background-color: #25408F;">
+         
+         
+         <h2 style="color: white;">Contact</h2>
          
          <form action="http://vip.groupehn.com:20003/html/infospost.php" method="POST" name="contactForm" id="formu">
+        
          
          <table>
                       
@@ -107,13 +192,15 @@
 
          </table>
          
+         
+         
          <input type="hidden" name= "destinatario" value="nikpam2008@hotmail.com">
          
           <input id="sendBotton" type="submit" value="Send">
          
          </form>
          
-     </section>
+     </section>-->
     
 </body>
 </html>
