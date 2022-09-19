@@ -1,71 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <title>Blog</title>
     
     <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <!--<link rel="stylesheet" href="../CSS/style.css">-->
+       
+        <!-- CSS only -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
     
 </head>
-
-<body>
+<body style="background-color:  #25408F;">
     
     <!-- Horizontal menu starts here -->
     
     <header id="top">
-         
-  <nav>
-
-        <img id="mediaLogo" src="../Media/logo.png">
+   
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TECH SHOP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
-			<ul id="menu">
-				
-				<li class="elementMenu"><a href="index.html">Home</a></li>
-				<li class="elementMenu"><a href="Shop.html">Shop</a>
-
-					<ul id="submenu">
-						<li class="submenuElement"><a href="Shop.html#contDisplay">Displays</a></li>
-						
-						<li class="submenuElement"><a href="Shop.html#contKeyboard">Keyboard</a></li>
-						<li class="submenuElement"><a href="Shop.html#contMouse">Mouse</a></li>
-						<li class="submenuElement"><a href="Shop.html#contLaptop">Laptop</a></li>
-					</ul>
-					
-				</li>
-
-				<li class="elementMenu"><a href="About.html">About us</a>
-				
-				<ul id="submenu">
-						<li class="submenuElement"><a href="Staff.html">Staff</a></li>
-						<li class="submenuElement"><a href="Location.html">Location</a></li>
-					</ul>
-				</li>
-				
-				<li class="elementMenu"><a href="Contact.html">Contact</a></li>	
-				
-                <li class="elementMenu"><a href="Events.html">Events</a></li>
-				
-				<li class="elementMenu"><a href="Blog.html">Blog</a>
-				
-				<ul id="submenu">
-						<li class="submenuElement"><a href="Blog.html#firstInput">16/02/2022</a></li>
-						<li class="submenuElement"><a href="Blog.html#secondInput">08/08/2022</a></li>
-						<li class="submenuElement"><a href="Blog.html#thirdInput">07/11/2022</a></li>
-					</ul>
-				</li>
-			
-			</ul>
-			
-		</nav>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Shop.html#contDisplay">Displays</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contKeyboard">Keyboard</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contMouse">Mouse</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contLaptop">Laptop</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Shop.html">Shop</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="About.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Staff.html">Staff</a></li>
+            <li><a class="dropdown-item" href="Location.html">Location</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="About.html">About</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Events.html">Events</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Blog.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Blog.html#firstInput">16/02/2022</a></li>
+            <li><a class="dropdown-item" href="Blog.html#secondInput">08/08/2022</a></li>
+            <li><a class="dropdown-item" href="Blog.html#thirdInput">07/11/2022</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
      </header>
      
+     
+     
+     <!-- BLOG -->
+     
      <section id="blog">
         
-        <h2 id="tittleWhite">Blog</h2>
+        <div class="container" style="width: 800px; background-color: aliceblue;">
+        <h2 style="color:#25408F; text-align: center; margin-top: 20px;">Blog</h2>
          
-         <div class="containerBlog">
+         <div class="container" style="margin-top: 30px; text-align: justify;">
          
          <!-- FIRST INPUT -->
          
@@ -73,15 +110,15 @@
          <h2 id="tittleBlog">10 mejores marcas de memorias RAM</h2>
          <br><h5 id="tittleBlog">Francisco Menezes | 16/02/2022</h5> <br>
          
-             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><br>
+             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
              
-             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><br>
+             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
              
-             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequat.</p><br>
+             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequat.</p>
              
-             <div class="containerImgBlog">
-             <img id="firstBlogImg" src="../Media/Blog/eBlog1.jpg">
-             <img id="firstBlogImg" src="../Media/Blog/eBlog2.jpg" >
+             <div class="container" style="width: 750px;">
+             <img id="firstBlogImg" src="../Media/Blog/eBlog1.jpg" class="img-fluid" style="width: 350px;margin-bottom: 40px;" >
+             <img id="firstBlogImg" src="../Media/Blog/eBlog2.jpg" class="img-fluid" style="width: 350px;margin-left: 20px;margin-bottom: 40px;">
              </div>
              
          </div>
@@ -94,25 +131,25 @@
          <h2 id="tittleBlog">Como elegir el mejor laptop</h2>
          <br><h5 id="tittleBlog">Kyak Mirnada | 08/08/2022</h5> <br>
              
-             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><br>
+             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
              
-             <p id="infoBlog">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequat.</p><br>
+             <p style="border: dotted; border-width: 5px; border-color: yellow; padding: 0.5rem;">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequat.</p>
              
              <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p><br>
              
              <ol id="listBlog">
                  <li>Li Europan lingues es membres del sam fa.</li>
-                 <br><p>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. </p><br>
+                 <br><p>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. </p>
                  
-                 <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Oc.</p><br>
+                 <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Oc.</p>
                  
                  <li>A un Angleso it va semblar un simplificat</li>
-                 <br><p>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p><br>
+                 <br><p>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
                  
              </ol>
              
-             <div class="containerImgBlog">
-             <img id="secondBlogImg"src="../Media/Blog/eBlog3.jpg" >
+             <div class="container" style="text-align: center;">
+             <img id="secondBlogImg"src="../Media/Blog/eBlog3.jpg" class="img-fluid rounded" style="width: 600px;margin-bottom: 40px;">
              </div>
              
          </div>
@@ -132,7 +169,7 @@
          </div>
          
          </div>
-         
+         </div>
      </section>
     
 </body>
