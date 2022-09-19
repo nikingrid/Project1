@@ -22,60 +22,80 @@
     <!-- Horizontal menu starts here -->
     
     <header id="top">
-         
-        	<nav>
-
-        <img id="mediaLogo" src="../Media/logo.png">
+   
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TECH SHOP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
-			<ul id="menu">
-				
-				<li class="elementMenu"><a href="index.html">Home</a></li>
-				<li class="elementMenu"><a href="Shop.html">Shop</a>
-
-					<ul id="submenu">
-						<li class="submenuElement"><a href="Shop.html#contDisplay">Displays</a></li>
-						
-						<li class="submenuElement"><a href="Shop.html#contKeyboard">Keyboard</a></li>
-						<li class="submenuElement"><a href="Shop.html#contMouse">Mouse</a></li>
-						<li class="submenuElement"><a href="Shop.html#contLaptop">Laptop</a></li>
-					</ul>
-					
-				</li>
-
-				<li class="elementMenu"><a href="About.html">About us</a>
-				
-				<ul id="submenu">
-						<li class="submenuElement"><a href="Staff.html">Staff</a></li>
-						<li class="submenuElement"><a href="Location.html">Location</a></li>
-					</ul>
-				</li>
-				
-				<li class="elementMenu"><a href="Contact.html">Contact</a></li>	
-				
-                <li class="elementMenu"><a href="Events.html">Events</a></li>
-				
-				<li class="elementMenu"><a href="Blog.html">Blog</a>
-				
-				<ul id="submenu">
-						<li class="submenuElement"><a href="Blog.html#firstInput">16/02/2022</a></li>
-						<li class="submenuElement"><a href="Blog.html#secondInput">08/08/2022</a></li>
-						<li class="submenuElement"><a href="Blog.html#thirdInput">07/11/2022</a></li>
-					</ul>
-				</li>
-			
-			</ul>
-			
-		</nav>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Shop.html#contDisplay">Displays</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contKeyboard">Keyboard</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contMouse">Mouse</a></li>
+            <li><a class="dropdown-item" href="Shop.html#contLaptop">Laptop</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Shop.html">Shop</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="About.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Staff.html">Staff</a></li>
+            <li><a class="dropdown-item" href="Location.html">Location</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="About.html">About</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Events.html">Events</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Blog.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Blog.html#firstInput">16/02/2022</a></li>
+            <li><a class="dropdown-item" href="Blog.html#secondInput">08/08/2022</a></li>
+            <li><a class="dropdown-item" href="Blog.html#thirdInput">07/11/2022</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
     
      <!-- Image-->
-    
-     <div class="imgLogo">
+
+     <img src="../Media/fondos/setupimg1.jpeg" class="mx-auto d-block" width="1200px;">
      
-     <img id="image" src="../Media/fondos/setupimg1.jpeg">
-     
-     <h1>TECH SHOP</h1>
-    
-     </div> 
      </header>
 </body>
 </html>
